@@ -22,7 +22,7 @@ At the begining of MMT object there are five variable you can setup :
 
 By default this values are set :
 ```
-    {
+{
     ...
     waiting_duration: 1400,
     between_two_duration: 700,
@@ -30,7 +30,7 @@ By default this values are set :
     number_of_direction_step: 20,
     number_of_location_step: 20,
     ... 
-    }
+}
 ```
 
 There is a method at the end of MMT object which is called send_data. This method is here just for futher steps such as saving data to db.
