@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Tasking Test</title>
+
+    <!-- CDNs -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Scripts -->
+    <script src="assets/mmt.js"></script>
+    <link rel="stylesheet" href="assets/mmt.css">
+</head>
+
+<body style="background: black;">
+
+    <div class="container pt-4" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -60%);">
+        <!-- <h1>MMT <small>Multitasking test</small></h1> -->
+
+        <div class="testbox">
+            <h3 style="text-align: center;" id="taskversion">Just use keyboard left and right buttons. </h3>
+
+            <div style="overflow-y: auto;">
+                <div class="location left">
+                </div>
+                <div class="location right">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-success" id="startbtn" onclick="MMT.init()">Start </button>
+            </div>
+
+        </div>
+        <!-- testbox -->
+
+
+        <h4 style="text-align: center;margin-top: 30px;" id="result"></h4>
+    </div>
+
+</body>
+
+</html>
